@@ -63,7 +63,7 @@ Promise.all([getObject(environmentID, 'environment'), getObject(collectionID, 'c
 
 function test(collection, environment) {
   var newmanOptions = {
-    folder: 'Discovery'//Specify a single folder to run from a collection
+    folder: 'Discovery',//Specify a single folder to run from a collection
     envJson: environment, // environment file (in parsed json format)
     //global: //Specify a Postman globals file as JSON
     //dataFile: data.csv, //Specify a data file to use either json or csv
