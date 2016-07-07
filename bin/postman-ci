@@ -70,7 +70,7 @@ function test(collection, environment) {
     //exportEnvironment //Specify an output file to dump the Postman environment before exiting
     //exportGlobals  //Specify an output file to dump Globals before exiting
     delay: 500, //Specify a delay (in ms) between requests
-    requestTimeout: 5000, //Specify a request timeout (in ms) for a request (Defaults to 15000 if not set)
+    requestTimeout: 15000, //Specify a request timeout (in ms) for a request (Defaults to 15000 if not set)
     iterationCount: 1, // define the number of times the runner should run
     testReportFile: resultsDir + '/' + collection.info.name + '_test.xml', // the file to export to
     responseHandler: "TestResponseHandler", // the response handler to use
