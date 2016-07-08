@@ -59,6 +59,8 @@ Promise.all([getObject(environmentID, 'environment'), getObject(collectionID, 'c
   })
   .catch(function (error) {
     console.log(error);
+    console.log("Failed to fetch testing specs")
+    process.exit(1);
   });
 
 function test(collection, environment) {
