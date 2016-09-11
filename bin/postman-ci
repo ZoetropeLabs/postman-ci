@@ -86,6 +86,7 @@ function test(collection, environment) {
     //pretty: true, //(Use with -i) Enable pretty-print while saving imported collections, environments, and globals
     outputFileVerbose: tempDir + '/' +'newman.log',
     avoidRedirects: true,
+    html: "report.html"
   }
 
   // Optional Callback function which will be executed once Newman is done executing all its tasks.
